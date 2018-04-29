@@ -1,0 +1,26 @@
+@import "../../sharedStyle/base/_variables.scss";
+
+.syntex_checker_container{
+	width: 40%;
+	margin-top: 50px;
+	text-align: center;
+	.header{
+		font-size: 25px;
+		color: $theme;
+		font-weight: $font-bolder;	
+		letter-spacing: 1px;
+	}
+	.container{
+		margin-top: 40px;
+		.checker_input{
+			height: 100px;
+			border-radius: 5px;
+			border: 2px solid $theme-light;
+			padding: 20px;
+			font-size: 20px;
+		}
+		.error_message{
+			font-size: 18px;
+		}
+	}
+}

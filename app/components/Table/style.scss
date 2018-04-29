@@ -1,0 +1,29 @@
+@import "../../sharedStyle/base/_variables.scss";
+
+.table_view{
+	width: 100%;
+	border: 1px solid $lighter-color;
+	text-align: left;
+	thead{
+		background-color: $active;
+		color: $white-text;
+	}
+	tr{
+		width: 100%;
+		th, td{
+			font-size: 14px;
+			width: 25%;
+			padding: 10px;
+			border: 1px solid $light-border;
+		}
+	}	
+	tbody{
+		tr:nth-child(even){
+			background-color: $theme-lighter;
+		}
+		tr:hover{
+			background-color: $theme-light;
+		}
+	}
+}
+

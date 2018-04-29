@@ -1,0 +1,97 @@
+@import "./base/_variables.scss";
+@import "./base/_base.scss";
+
+
+.container{
+	position: relative;
+}
+
+.theme_color{
+	color: $theme;
+}
+
+.inline_block{
+  display: inline-block;
+}
+
+.theme_back{
+	background-color: $theme;
+}
+
+.black_text{
+	color: $dark;
+}
+
+.white_text{
+	color: $white-text;
+}
+
+.small_text{
+	font-size: 11px;
+}
+
+.upper_text{
+	text-transform: uppercase;
+}
+
+.center_text{
+	text-align: center;
+}
+
+.capital_text{
+	text-transform: capitalize;
+}
+
+.center_container{
+	display: table;
+	margin: 0 auto;
+}
+.half_width{
+	width: 50%;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.flax_box{
+	display: flex;
+}
+
+.max_margin_top{
+	margin-top: 50px;
+}
+
+.full_width{
+	width: 100%;
+	float: left;
+}
+.head_title{
+	text-align: center;
+	font-size: 40px;
+	margin: 20px 0;
+	color: $theme;
+}
+
+.main_container{
+	position: relative;
+	margin-top: 70px;
+	padding: 50px 20px;
+}
+
+.button{
+	background-color: $theme;
+	color: $white-text;
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.error{
+	color: $wrong;
+}

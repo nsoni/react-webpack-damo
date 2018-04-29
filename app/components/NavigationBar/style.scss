@@ -1,0 +1,25 @@
+@import "../../sharedStyle/base/_variables.scss";
+
+.navContainer{
+	padding: 25px;
+	font-family: $font-bold;
+	box-shadow: 0 0 20px #00000029;
+	position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  background-color: $background;
+	ul li a {
+		color: $theme;
+		font-size: 18px;
+		padding: 10px 20px;
+		border-bottom: 1px solid $white-text;
+	}
+	ul li a:hover{
+		border-bottom: 1px solid $theme;
+		// -webkit-transition: all 500ms ease-in-out;	
+	 //  -moz-transition: all 500ms ease-in-out;
+	 //  -o-transition: all 500ms ease-in-out;
+	 //  transition: all 500ms ease-in-out;
+	}
+}
