@@ -24,8 +24,11 @@ $ brew install node
 ## Preparing the repo
 
 ```bash
-$ git clone https://github.com/nsoni/single-page-demo.git
-$ cd single-page-demo
+$ git clone https://github.com/nsoni/react-webpack-damo.git
+$ cd react-webpack-damo
 $ npm install
+
+in brouser open http://localhost:6862
 ```
+[this article](http://localhost:6862/#/agent_info?_k=2vezls)
 
