@@ -97,7 +97,7 @@ class AgentInfoContainer extends Component {
                 onChange = {this.searchFilter} />
               {this.state.currentAgentList
                 ? (<Table  
-                      headers = {["First Name", "Last Name", "Email", "Agent Name"]}
+                      headers = {["First Name", "Last Name", "Email", "Agency Name"]}
                       currentAgentList = {this.state.currentAgentList}
                     />
                 ): (<div>No info Available!</div>)}
