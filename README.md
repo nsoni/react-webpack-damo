@@ -27,6 +27,7 @@ $ brew install node
 $ git clone https://github.com/nsoni/react-webpack-damo.git
 $ cd react-webpack-damo
 $ npm install
+$ npm run start
 
 in brouser open http://localhost:6862
 ```
