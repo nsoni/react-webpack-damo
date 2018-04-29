@@ -31,5 +31,5 @@ $ npm run start
 
 in brouser open http://localhost:6862
 ```
-[localhost](http://localhost:6862/#/agent_info?_k=2vezls)
+[open localhost](http://localhost:6862/)
 
