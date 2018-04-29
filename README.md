@@ -30,5 +30,5 @@ $ npm install
 
 in brouser open http://localhost:6862
 ```
-[this article](http://localhost:6862/#/agent_info?_k=2vezls)
+[localhost](http://localhost:6862/#/agent_info?_k=2vezls)
 
